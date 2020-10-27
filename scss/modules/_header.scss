@@ -1,0 +1,13 @@
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;    
+    text-align: center;
+    margin-top: 110px;
+
+
+    &__text {
+        @include font-face ($font-ral, 500, 24px);
+        color: #898f8f;
+        text-transform: uppercase;
+    }
+}
